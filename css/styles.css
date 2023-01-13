@@ -1,0 +1,191 @@
+body{
+    font-family:"Monteserrat";
+}
+
+#title{
+    background-color:#ff4c68;
+    color: white;
+    
+}
+.container-fluid{
+    padding: 1% 15% 7% ;
+}
+h1{
+    font-family: "Montserrat black";
+    font-size: 4rem;
+    line-height:1.5;
+    font-weight:bold;
+    font-weight:400;
+}
+h2{
+    font-size: 2rem;
+    line-height: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; /* black */
+
+}
+h3{
+    
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: 600; black */
+    display: block;
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 600;
+}
+p{
+    /* font-size: 3rem; */
+    /* line-height: 3rem; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500; /* black */
+}
+
+/* navbar stuff */
+.navbar{
+    padding:0 0 1.5rem;
+}
+.navbar-brand{
+    font-size: 50px;
+    font-weight:bold;
+    font-family:"Ubuntu";
+}
+.nav-item{
+    padding: 0 15px;
+}
+.nav-link{
+    font-size:1.2rem;
+    font-weight: lighter;
+    font-family: "Ubuntu";
+}
+
+/* buttons */
+.bn{
+    margin:5% 3% 5% 0;
+}
+.bon{
+    margin:0 3% 0% 0 ;
+}
+
+/* title image */
+.title-image{
+    transform:rotate(20deg);
+    /* height: 600px; */
+    /* width: 300px; */
+    width:21%;
+    position: absolute;
+  
+}
+/* feature stuff */
+
+#features{
+    padding:5% 17%;
+    background-color: white;
+    position: relative;
+    z-index:1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color:#ef8172;
+    padding-bottom: 1.2rem;
+}
+.icon:hover{
+    color: #ff4c68 ;
+}
+/* testimonial  */
+
+#testimonials{
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #ef8172;
+}
+.testimonial-text{
+   font-size: 3rem;
+    line-height: 4.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900; /* black */
+    color: #fff; 
+    
+}
+.testimonial-image{
+    width: 10%;
+border-radius:100%;
+margin: 20px;
+}
+
+
+/* press stuff */
+#press{
+    background-color: #ef8172;
+    padding-bottom:3% ;
+    text-align: center;
+
+}
+.press-logos{
+    width: 15%;
+    padding: 20px 20px 20px ;
+}
+.carousel-items{
+    padding: 5% 15%;
+}
+.dumbo{
+    /* padding-right: 13%; */
+}
+.dumbo2{
+    /* padding-left: 13%; */
+}
+
+/* pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+ 
+}
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+
+@media (max-width:850px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+
+}
+
+.cta-heading{
+    /* font-family:"Monteserrat-Black"; */
+    font-size: 3rem;
+    line-height: 4.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900; /* black */
+    color: #fff; 
+}   
+
+/* footer stuff */
+#footer{
+    padding: 5% 15%;
+    text-align: center;
+
+}
+/* icon */
+.icons-huh{
+    margin: 20px 10px;
+}
